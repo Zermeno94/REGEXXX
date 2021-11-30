@@ -53,13 +53,6 @@ Code Snipet:  ` /^#?([a-f0-9]{6} `
 
 The `{n} ` quantifiers outlines that the HEX values are exactly ` {6} ` digits  or `{3}` digits long.
 
-### OR Operator 
-
-Code Snipet : ` [a-f0-9]{6}|[a-f0-9]{3}` 
-
-The OR Operator ` | ` communicates to the regular expression to match the pattern either before or after. 
-
-In this regular expression, the OR Operator shows that the matching pattern ` [a-f0-p] `  implies match with three character string containing lower case ` a-f ` with an integer ` 0-9 ` OR a string with 6 characters containing lowercase ` a-f ` between ` 0-9`. Therefore, a matching string has to have 3-6 characters with the specified pattern. Anything beyond 3-6 characters will not match. 
 
 ### Grouping Constructs
 
@@ -81,7 +74,20 @@ For this HEX Value, it pulls all the alphabet letters from a to f and will displ
 
 ### Character Classes
 
-### The OR Operator
+Character classes only match oen out of several characters defined in the character set. 
+
+Code Snipet: ` a-f0-9 ` 
+
+A hypen is used inside a character class to define the range of characters, as shown above. 
+
+
+### OR Operator 
+
+Code Snipet : ` [a-f0-9]{6}|[a-f0-9]{3}` 
+
+The OR Operator ` | ` communicates to the regular expression to match the pattern either before or after. 
+
+In this regular expression, the OR Operator shows that the matching pattern ` [a-f0-p] `  implies match with three character string containing lower case ` a-f ` with an integer ` 0-9 ` OR a string with 6 characters containing lowercase ` a-f ` between ` 0-9`. Therefore, a matching string has to have 3-6 characters with the specified pattern. Anything beyond 3-6 characters will not match. 
 
 ### Flags
 
@@ -89,4 +95,5 @@ For this HEX Value, it pulls all the alphabet letters from a to f and will displ
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+My name is Miranda Zermeno. This tutorial was created for Full-Stack Web Developer Bootcamp program at Southern Methodist University.  I am an inspiring web developer, who wishes to expand their creativity and knowledge within web technologies. I selected HEX values, because it allowed me to learn more about color system that accuratley communicates to the computer to ensure consistency and accuracey in a electronic display. My GitHub page reflects the assignments/projects that I created thus far in the program: https://github.com/Zermeno94 . 
+<!-- A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile) -->
