@@ -61,11 +61,24 @@ The OR Operator ` | ` communicates to the regular expression to match the patter
 
 In this regular expression, the OR Operator shows that the matching pattern ` [a-f0-p] `  implies match with three character string containing lower case ` a-f ` with an integer ` 0-9 ` OR a string with 6 characters containing lowercase ` a-f ` between ` 0-9`. Therefore, a matching string has to have 3-6 characters with the specified pattern. Anything beyond 3-6 characters will not match. 
 
-
-
 ### Grouping Constructs
 
+` ([a-f0-9]{6}|[a-f0-9]{3}) `
+
+The regex outlines characters by using `( ) ` parentheses to group all of htem together.  As seen below, the multiple characters withing ` ( ) ` are a single unit. 
+
 ### Bracket Expressions
+
+The brackets ` [ ] ` are used to define the pattern of character sets. 
+ 
+ * The bracket expression ` [a-z ] ` pulls all the alphabet letters from a to z 
+ * The bracket expression ` [0-9 ]` shows all whole numbers from 0-9
+
+Code Snipet: ` [a-f0-9] `
+
+For this HEX Value, it pulls all the alphabet letters from a to f and will display whole numberrs from 0 to 9.
+
+
 
 ### Character Classes
 
