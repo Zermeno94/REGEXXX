@@ -38,6 +38,10 @@ Allows developers to explain how a specific regular expression, or regex, functi
 
 * [https://mkyong.com/regular-expressions/how-to-validate-hex-color-code-with-regular-expression/](https://mkyong.com/regular-expressions/how-to-validate-hex-color-code-with-regular-expression/)
 
+* [https://users.cs.cf.ac.uk/Dave.Marshall/PERL/node88.html](https://users.cs.cf.ac.uk/Dave.Marshall/PERL/node88.html)
+
+* [https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html](https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html)
+
 * [https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 
