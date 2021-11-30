@@ -79,7 +79,6 @@ Code Snipet: ` [a-f0-9] `
 For this HEX Value, it pulls all the alphabet letters from a to f and will display whole numberrs from 0 to 9.
 
 
-
 ### Character Classes
 
 ### The OR Operator
