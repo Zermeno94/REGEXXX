@@ -42,6 +42,10 @@ Allows developers to explain how a specific regular expression, or regex, functi
 
 * [https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html](https://www.gnu.org/software/grep/manual/html_node/Character-Classes-and-Bracket-Expressions.html)
 
+* [https://www.developintelligence.com/blog/2017/02/rgb-to-hex-understanding-the-major-web-color-codes/](https://www.developintelligence.com/blog/2017/02/rgb-to-hex-understanding-the-major-web-color-codes/)
+
+* [https://www.techopedia.com/definition/29788/color-hex-code](https://www.techopedia.com/definition/29788/color-hex-code)
+
 * [https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 

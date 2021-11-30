@@ -1,13 +1,15 @@
 # REGEX TUTORIAL: How to Match HEX Values
 
 <!-- Introductory paragraph (replace this with your text) -->
-This tutorial is to provide an introduction to regular expressions and demonstrate how they function. A regular expression , also known as regex, is a sequence of characters that define a search pattern. They are used to find, match, or authorize valid input strings. For this tutorial, we will go over thye regular expression to match a HEX value. 
+This tutorial is to provide an introduction to regular expressions and demonstrate how they function. A regular expression , also known as regex, is a sequence of characters that define a search pattern. They are used to find, match, or authorize valid input strings. For this tutorial, we will go over the regular expression to match a HEX value. 
 
 ## Summary
 
-The displayed regular expression below is used to match HEX values: 
+Displayed below is the regex  that this tutorial will be focusing on : 
 
 `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
+
+HEX values define and communicate sRGB colors to the computer and web applications. A color hex code is a hexadecimal way to represent a color in RGB format by combining three primary colors-red, green and blue in a particular shade of color. By using values ranging from 00 to ff, which navigates the color intensity. 
 
 <!-- Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary. -->
 
