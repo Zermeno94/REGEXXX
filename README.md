@@ -1,112 +1,66 @@
-# 17 Computer Science for JavaScript: Regex Tutorial
+## <br> HW 17: REGEXXX-HEX-VALUES 🎨 </br>
 
-## Your Task
+![GitHub license](https://img.shields.io/badge/license-MIT-ff69b4.svg) 
 
-Developers write code, but they also *write about code*. Take a moment to search the web for tutorials about any of the subjects you’ve learned so far in this course. You’re likely to find thousands of tutorials written by developers of all skill levels, including junior developers&mdash;like yourself!
+## Description
+This homework assignment allowed us to do research for tutorials about any of hte subjects we've learned so far in this course. My tutorial focuses on matching HEX values. 
 
-Your assignment this week is to create a tutorial that explains how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what it does. You'll use the template provided in the starter code to create your walkthrough.
 
-## User Story
+## Table of Contents 🔎
+- [Usage](#usage)
+- [Demo](#demo)
+ -[GitHub & Deploy Link](#githubdeploylink)
+- [Contributers](#contributers)
+- [Resources & Tutorials](#resources&tutorials)
+- [License](#license)
 
-```md
-AS A web development student
-I WANT a tutorial explaining a specific regex
-SO THAT I can understand the search pattern the regex defines
-```
 
-## Acceptance Criteria
+### Usage ⚡
+Allows developers to explain how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what is does. 
 
-```md
-GIVEN a regex tutorial
-WHEN I open the tutorial
-THEN I see a descriptive title and introductory paragraph explaining the purpose of the tutorial, a summary describing the regex featured in the tutorial, a table of contents linking to different sections that break down each component of the regex and explain what it does, and a section about the author with a link to the author’s GitHub profile
-WHEN I click on the links in the table of contents
-THEN I am taken to the corresponding sections of the tutorial
-WHEN I read through each section of the tutorial
-THEN I find a detailed explanation of what a specific component of the regex does
-WHEN I reach the end of the tutorial
-THEN I find a section about the author and a link to the author’s GitHub profile
-```
+### Demo 🎥
 
-## What Is a Regex?
+* [Link to Demo]()
 
-A **regex**, which is short for **regular expression**, is a sequence of characters that defines a specific search pattern. When included in code or search algorithms, regular expressions can be used to find certain patterns of characters within a string, or to find and replace a character or sequence of characters within a string. They are also frequently used to validate input. 
+### GitHub 
 
-For example, the following regular expression can be used to verify that user input is a valid email address:
+* [GitHub Link](https://github.com/Zermeno94/REGEXXX-HEX-VALUE)
 
-`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
-Each component of this regex has a unique responsibility to make sure that a user enters an email address that begins with an unspecified number of characters preceding the `@` symbol, followed by a domain.
+## Contributers
+* Miranda Zermeno
 
-Before you get started, watch this [introduction to regular expressions video](https://youtu.be/7DG3kCDx53c) and read [Regex Tutorial: Matching a Username](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial) to learn how to identify the different components that make up a regex. If you need any additional help, there are many resources on the web. Feel free to do your own research to find one that can help you complete this assignment.
 
-Once you have a better understanding of what these different parts of a regular expression do, you’ll need to explain what they do for a specific regex.
 
-You can choose one of the following regular expressions or you can choose one that you found on your own (with the exception of the one that is covered in the [Regex Tutorial: Matching a Username](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial):
+## Resources & Tutorials  💻
 
-* Matching a Hex Value: `/^#?([a-f0-9]{6}|[a-f0-9]{3})$/`
 
-* Matching an Email: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+* [https://www.geeksforgeeks.org/how-to-validate-hexadecimal-color-code-using-regular-expression/](https://www.geeksforgeeks.org/how-to-validate-hexadecimal-color-code-using-regular-expression/)
 
-* Matching a URL: `/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/`
+* [https://mkyong.com/regular-expressions/how-to-validate-hex-color-code-with-regular-expression/](https://mkyong.com/regular-expressions/how-to-validate-hex-color-code-with-regular-expression/)
 
-* Matching an HTML Tag: `/^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/`
+* [https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md](#https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
-## Getting Started
 
-Instead of creating a repository, you’ll publish a GitHub gist. GitHub describes a **gist** as a simple way to share code snippets with others. It’s also an ideal way to demonstrate a technique, teach a principle, or show off a solution. It functions just like a repository, and you’ll use Markdown to create it, just as you do with your READMEs. Gists can include code, images, links, and anything else you can include in a README.
+## License 📍
+MIT License
 
-After you’ve downloaded the starter code, learn [how to create a gist](https://help.github.com/en/github/writing-on-github/creating-gists). You can also watch this [video on how to use gists](https://www.youtube.com/watch?v=wc2NlcWjQHw).
+Copyright (c) 2021 Miranda Zermeno
 
-> **Note**: Make sure to create a **public** gist.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The starter code is a template with a title, introductory paragraph, summary, and table of contents. The table of contents should link to sections of the tutorial that describe the functionality of each component in the regex. Be sure to rename the template to a unique name that describes your tutorial.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-> **Note**: The regular expression that you choose might not include all of the components outlined in the starter code. After you’ve finished your walkthrough, you can remove any sections that you didn’t use.
-
-Each section that describes a component should include more than just one sentence explaining what it does. It should also include a code snippet of that particular component and some examples that meet the requirements of that component.
-
-> **Important**: Make revisions to your gist in the GitHub gist UI. This will create a revision history that graders can use to verify that the tutorial content is yours.
-
-## Grading Requirements
-
-This homework is graded based on the following criteria:
-
-### Deliverables: 30%
-
-* A valid URL of your GitHub gist.
-
-* Your GitHub gist that contains the tutorial Markdown.
-
-### Technical Acceptance Criteria: 50%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-    * Revisions to the tutorial must be made in the GitHub gist UI so that graders have access to your revision history.
-
-    * The tutorial must cover one of the regex examples listed above or another of your choice. You may NOT use the regex covered in the [Regex Tutorial: Matching a Username](https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial).
-
-    * The tutorial must include sections that correspond to each of the components that make up the regex. You may not need to use all of the sections included in the starter code, but you should include all of the sections that correspond to the different components of the regex you chose.
-
-    * Each section that describes a component must include more than just one sentence explaining what it does. It’s okay to use online resources for assistance, but do not copy and paste; explain each component in your own words and be thorough.
-
-    * Each section that describes a component must include a code snippet of that particular component. Use backticks to display your code snippets in Markdown.
-
-    * Each section that describes a component must include at least one example that meets the requirements of that component.
-
-### Tutorial Clarity and Quality: 20%
-
-* Tutorial provides a clear explanation of how the regex works. Be as concise as possible.
-
-* Tutorial describes each regex component in a separate section.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the GitHub gist. Give the gist a unique name.
-
-#Resources 
-
-*(https://www.geeksforgeeks.org/how-to-validate-hexadecimal-color-code-using-regular-expression/)[https://www.geeksforgeeks.org/how-to-validate-hexadecimal-color-code-using-regular-expression/]
-*(https://mkyong.com/regular-expressions/how-to-validate-hex-color-code-with-regular-expression/)[https://mkyong.com/regular-expressions/how-to-validate-hex-color-code-with-regular-expression/]
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
