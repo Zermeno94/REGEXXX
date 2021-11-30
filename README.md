@@ -105,3 +105,8 @@ This homework is graded based on the following criteria:
 You are required to submit the following for review:
 
 * The URL of the GitHub gist. Give the gist a unique name.
+
+#Resources 
+
+*(https://www.geeksforgeeks.org/how-to-validate-hexadecimal-color-code-using-regular-expression/)[https://www.geeksforgeeks.org/how-to-validate-hexadecimal-color-code-using-regular-expression/]
+*(https://mkyong.com/regular-expressions/how-to-validate-hex-color-code-with-regular-expression/)[https://mkyong.com/regular-expressions/how-to-validate-hex-color-code-with-regular-expression/]
