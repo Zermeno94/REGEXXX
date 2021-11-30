@@ -19,8 +19,8 @@ The displayed regular expression below is used to match HEX values:
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
 - [The OR Operator](#the-or-operator)
-- [Flags](#flags)
-- [Character Escapes](#character-escapes)
+- [Author](#author)
+
 
 ## Regex Components
 
@@ -81,7 +81,7 @@ Code Snipet: ` a-f0-9 `
 A hypen is used inside a character class to define the range of characters, as shown above. 
 
 
-### OR Operator 
+### The OR Operator 
 
 Code Snipet : ` [a-f0-9]{6}|[a-f0-9]{3}` 
 
