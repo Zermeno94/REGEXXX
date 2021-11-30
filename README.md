@@ -9,7 +9,7 @@ This homework assignment allowed us to do research for tutorials about any of ht
 ## Table of Contents 🔎
 - [Usage](#usage)
 - [Demo](#demo)
- -[GitHub & Deploy Link](#githubdeploylink)
+ -[Links](#links)
 - [Contributers](#contributers)
 - [Resources & Tutorials](#resources&tutorials)
 - [License](#license)
@@ -18,13 +18,11 @@ This homework assignment allowed us to do research for tutorials about any of ht
 ### Usage ⚡
 Allows developers to explain how a specific regular expression, or regex, functions by breaking down each part of the expression and describing what is does. 
 
-### Demo 🎥
 
-* [Link to Demo]()
-
-### GitHub 
+### Links
 
 * [GitHub Link](https://github.com/Zermeno94/REGEXXX-HEX-VALUE)
+* [Deploy Link](https://zermeno94.github.io/REGEXXX-HEX-VALUE/)
 
 
 ## Contributers
