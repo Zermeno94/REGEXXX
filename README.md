@@ -31,7 +31,6 @@ Allows developers to explain how a specific regular expression, or regex, functi
 * Miranda Zermeno
 
 
-
 ## Resources & Tutorials  💻
 
 
@@ -39,7 +38,7 @@ Allows developers to explain how a specific regular expression, or regex, functi
 
 * [https://mkyong.com/regular-expressions/how-to-validate-hex-color-code-with-regular-expression/](https://mkyong.com/regular-expressions/how-to-validate-hex-color-code-with-regular-expression/)
 
-* [https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md](#https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+* [https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 
 ## License 📍
